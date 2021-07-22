@@ -52,6 +52,16 @@ export default {
       title: "Featured",
       type: "boolean",
     },
+    {
+      name: "edmsite",
+      title: "Edm Site",
+      type: "boolean",
+    },
+    {
+      name: "letgosite",
+      title: "LetGo Site",
+      type: "boolean",
+    },
   ],
 
   preview: {

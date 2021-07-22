@@ -1,11 +1,11 @@
 export default {
-  name: "release",
-  title: "Release",
+  name: "event",
+  title: "Event",
   type: "document",
   fields: [
     {
       name: "name",
-      title: "Release Name",
+      title: "Event Name",
       type: "string",
     },
     {
@@ -46,8 +46,8 @@ export default {
     },
 
     {
-      title: "Release Date",
-      name: "releasedate",
+      title: "Event Date",
+      name: "eventedate",
       type: "datetime",
       options: {
         dateFormat: "YYYY-MM-DD",
@@ -56,22 +56,11 @@ export default {
     },
 
     {
-      name: "spotifyembed",
-      title: "Spotify",
-      type: "string",
-    },
-
-    {
       name: "youtubeembed",
       title: "Youtube",
       type: "string",
     },
 
-    {
-      name: "beatport",
-      title: "Beatport",
-      type: "string",
-    },
     {
       name: "featured",
       title: "Featured",
