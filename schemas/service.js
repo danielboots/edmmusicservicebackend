@@ -41,6 +41,11 @@ export default {
       name: "description",
       type: "text",
     },
+    {
+      name: "body",
+      title: "Body",
+      type: "blockContent",
+    },
 
     {
       name: "tags",

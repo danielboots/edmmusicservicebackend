@@ -25,24 +25,22 @@ export default {
         hotspot: true,
       },
     },
-    {
-      name: "writeup",
-      title: "Writeup",
-      type: "array",
-      of: [
-        {
-          title: "Block",
-          type: "block",
-          styles: [{ title: "Normal", value: "normal" }],
-          lists: [],
-        },
-      ],
-    },
 
     {
       name: "headline",
       title: "Headline",
       type: "string",
+    },
+    {
+      name: "writeup",
+      title: "Write Up",
+      type: "string",
+    },
+
+    {
+      name: "location",
+      title: "Location",
+      type: "geopoint",
     },
 
     {

@@ -28,15 +28,7 @@ export default {
     {
       name: "writeup",
       title: "Writeup",
-      type: "array",
-      of: [
-        {
-          title: "Block",
-          type: "block",
-          styles: [{ title: "Normal", value: "normal" }],
-          lists: [],
-        },
-      ],
+      type: "string",
     },
 
     {
